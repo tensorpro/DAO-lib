@@ -1,5 +1,5 @@
 pragma solidity ^0.4.23;
-import "./ExecutableTally.sol";
+import "./Tally.sol";
 
 contract ExecutableTally is Tally{
   bool[] executed;
